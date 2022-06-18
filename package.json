@@ -1,0 +1,35 @@
+{
+  "name": "tech-forum",
+  "version": "1.0.0",
+  "description": "A space and place for all coders to gather, share and discuss everything tech.",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "seeds": "node seeds/index.js",
+    "start": "node server.js"
+  },
+  "author": "Rachel Schaaf",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^6.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.0",
+    "handlebars": "^4.7.7",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.5"
+  },
+  "devDependencies": {
+    "jest": "^28.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaeSii/tech-forum.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RaeSii/tech-forum/issues"
+  },
+  "homepage": "https://github.com/RaeSii/tech-forum#readme"
+}

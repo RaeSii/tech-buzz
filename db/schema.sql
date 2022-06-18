@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS techForum_db;
+
+CREATE DATABASE techForum_db;
