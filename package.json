@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "seeds": "node seeds/index.js",
-    "start": "node server.js"
+    "start": "node server.js",
+    "develop":"nodemon server.js"
   },
   "author": "Rachel Schaaf",
   "license": "ISC",
@@ -19,6 +20,7 @@
     "express-session": "^1.17.0",
     "handlebars": "^4.7.7",
     "mysql2": "^2.1.0",
+    "nodemon": "^2.0.16",
     "sequelize": "^5.21.5"
   },
   "devDependencies": {
