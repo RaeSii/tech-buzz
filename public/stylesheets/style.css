@@ -2,6 +2,14 @@
   box-sizing: border-box;
 }
 
+div.lsf {
+  border: #333 solid 1px;
+  align-content: center;
+  margin: 2%;
+  padding: 2%;
+  display: flex;
+}
+
 body, html {
   height: 100%;
   padding: 0;
@@ -40,14 +48,14 @@ a:hover {
 }
 
 button {
-  background-color: #225ca3;
+  background-color: #6e8197;
   border: 0;
   padding: 1%;
   color: white;
   font-weight: bold;
   transition: background-color .1s;
   cursor: pointer;
-  border-radius: 5px;
+  /* border-radius: px; */
 }
 
 button:hover {
@@ -60,8 +68,7 @@ button:hover {
 }
 
 textarea, input {
-  padding: .5%;
-  border-radius: 5px;
+  padding: 1%;
   border: 1px solid #ccc;
 }
 
@@ -77,8 +84,16 @@ textarea, input#post-text {
 
 form > div {
   margin-bottom: 2%;
+  padding: 2%;
 }
-
+form.login-form{
+  margin-bottom: 2%;
+  padding: 2%;
+}
+form.signup-form{
+  margin-bottom: 2%;
+  padding: 2%;
+}
 form label {
   display: block;
 }
