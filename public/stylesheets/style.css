@@ -11,10 +11,31 @@ body, html {
 }
 
 a {
-  text-decoration: none;
-  color: #225ca3;
+  color: #3486eb;
   font-weight: bold;
   transition: color .1s;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+div.title {
+  color: white;
+  align-content: flex-start;
+  background-color: #333;
+}
+
+li {
+  border: hsl(0, 1%, 25%) solid 1px;
+  text-decoration: none;
+  padding: .5%;
+  margin-top: .5%;
+}
+
+li::marker {
+  text-decoration: none;
 }
 
 a:hover {
