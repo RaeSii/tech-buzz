@@ -15,7 +15,9 @@ async function loginFormHandler(event) {
     });
 
     if (response.ok) {
-      document.location.replace('/dashboard/');
+      console.log(response.data,"Login")
+      document.location.replace('/');
+      // document.location.assign('/dashboard/user');
     } else {
       alert(response.statusText);
     }
